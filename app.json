@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "NPM_CONFIg_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "tab-track",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
