@@ -14,6 +14,11 @@
   },
   "name": "tab-track",
   "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "node server/src/app.js",
+    "build": "node build/build.js",
+    "postinstall": "npm run build",
+    "lint": "eslint --ext .js,.vue src"
   },
   "stack": "heroku-18"
 }
